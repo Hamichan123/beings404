@@ -405,7 +405,7 @@ function initChatBot() {
     addUserBubble("Done ✅");
     setPhase(2);
 
-    const TWEET_URL = "https://x.com/404_Beings/status/2065479216771019204";
+    const TWEET_URL = "https://x.com/404_Beings/status/2066177370612994274";
     await botSay("Nice! Step 2 — like <strong>AND</strong> retweet our announcement 🔁❤️");
 
     addQuickReplies([
