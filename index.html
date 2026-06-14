@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Beings — Join the waitlist for the next evolution in Web3.">
+  <title>Beings — Join the Waitlist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/img1 (1).png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-base"></div>
+  <div class="bg-aurora" aria-hidden="true">
+    <div class="aurora-blob aurora-blob--1"></div>
+    <div class="aurora-blob aurora-blob--2"></div>
+    <div class="aurora-blob aurora-blob--3"></div>
+  </div>
+  <div class="bg-grid"></div>
+  <div class="bg-grain"></div>
+
+  <div class="page-transition" id="pageTransition">
+    <div class="loader"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark"><img src="img/img1 (1).png" alt="Beings logo"></span>
+        <span class="logo-text">Beings</span>
+      </a>
+      <a href="waitlist.html" class="nav-link" data-navigate>Apply</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Waitlist Now Open
+          </div>
+          <div class="hero-title-wrap">
+            <h1 class="hero-title">Beings</h1>
+          </div>
+          <p class="hero-tagline">
+            Where digital identity meets the unknown. A new species of on-chain existence is emerging — and you're early.
+          </p>
+          <div class="hero-cta">
+            <a href="waitlist.html" class="btn btn-primary" data-navigate>
+              Apply to the Waitlist
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-art-glow"></div>
+          <img src="img/img1 (1).png" alt="A Beings character" class="hero-art-img">
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Explore</span>
+        <div class="arrow"></div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Visual Identity</p>
+          <h2 class="section-title">The Collection</h2>
+          <p class="section-desc">A glimpse into the world of Beings — each one unique, each one waiting to be discovered.</p>
+        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container">
+        <div class="cta-card reveal">
+          <h2>Ready to become a Being?</h2>
+          <p>Complete a few simple tasks to secure your spot on the waitlist. Early supporters get priority access.</p>
+          <a href="waitlist.html" class="btn btn-primary" data-navigate>
+            Apply to the Waitlist
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Beings. Follow us on <a href="https://x.com/404_Beings" target="_blank" rel="noopener">@404_Beings</a></p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
+    <img id="lightboxImg" src="" alt="Gallery image">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

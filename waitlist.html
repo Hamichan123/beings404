@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apply to the Beings waitlist — complete tasks to secure your spot.">
+  <title>Apply — Beings Waitlist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/img1 (1).png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-base"></div>
+  <div class="bg-aurora" aria-hidden="true">
+    <div class="aurora-blob aurora-blob--1"></div>
+    <div class="aurora-blob aurora-blob--2"></div>
+    <div class="aurora-blob aurora-blob--3"></div>
+  </div>
+  <div class="bg-grid"></div>
+  <div class="bg-grain"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark"><img src="img/img1 (1).png" alt="Beings logo"></span>
+        <span class="logo-text">Beings</span>
+      </a>
+      <a href="index.html" class="nav-link">Home</a>
+    </div>
+  </header>
+
+  <main class="waitlist-page">
+
+    <!-- ── Chat Interface ── -->
+    <section class="chat-wrapper" id="chatWrapper">
+      <div class="chat-window" id="chatWindow">
+
+        <!-- Header -->
+        <div class="chat-header">
+          <div class="bot-avatar-wrap">
+            <img src="" id="botAvatarImg" alt="Your Being" class="bot-avatar-img">
+          </div>
+          <div class="chat-header-info">
+            <span class="bot-name">Beings-Bot</span>
+            <span class="bot-online">
+              <span class="online-dot"></span>Online
+            </span>
+          </div>
+          <div class="chat-phase-badge" id="chatPhase">Phase 0 / 4</div>
+        </div>
+
+        <!-- Progress -->
+        <div class="chat-progress-track">
+          <div class="chat-progress-fill" id="chatProgressFill" style="width:0%"></div>
+        </div>
+
+        <!-- Messages -->
+        <div class="chat-messages" id="chatMessages"></div>
+
+        <!-- Input bar -->
+        <div class="chat-input-bar" id="chatInputBar">
+          <input
+            type="text"
+            id="chatInput"
+            class="chat-text-input"
+            placeholder="Waiting for your selection…"
+            autocomplete="off"
+            spellcheck="false"
+            disabled
+          >
+          <button id="chatSend" class="chat-send-btn" aria-label="Send" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"/>
+              <polygon points="22 2 15 22 11 13 2 9 22 2" fill="currentColor" stroke="none"/>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Beings. Follow us on <a href="https://x.com/404_Beings" target="_blank" rel="noopener">@404_Beings</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
